@@ -1,0 +1,23 @@
+.recomendado{
+	 width:100%;
+	 height:700px;
+	 margin-top:10px;
+	 background-color: #F2F3F4;
+	 display:block;
+	 padding-top:10px;
+	 overflow: scroll;	 
+ }
+ 
+ 
+ .bus{
+	 width:100px;
+	 height:34px;
+	 border-radius:8px;
+	 border: 1px solid #F5B041;
+	 background:#F5B041;
+	 margin-left:10px;
+ }
+ 
+.bus:hover{
+	background-color:#F39C12;
+} 

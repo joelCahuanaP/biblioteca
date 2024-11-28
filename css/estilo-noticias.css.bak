@@ -1,0 +1,34 @@
+.seccion-noticia{
+	padding-top:20px;
+	padding-bottom:10px;
+	padding-right:4px;
+	max-width:92%;
+	height:880px;
+	margin:auto;
+	/*overflow: hidden; todo lo que revase el contenedor lo oculta*/
+
+}
+
+.centro-noticia{
+	width:88%; 
+	height:820px;
+	background:#F2F3F4;
+	margin:auto;
+	font-family:Century Gothic;
+	padding:30px;
+	text-align:justify;
+}
+
+.centro-noticia img{
+   height:200px;
+   width:50%;
+   margin-left:250px;
+}
+
+.img-noticia{
+	margin:auto;
+}
+
+.centro-noticia h2{
+	color:orange;
+}

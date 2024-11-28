@@ -1,0 +1,111 @@
+.contenedor2{
+	padding-top:6px;
+	padding-bottom:6px;
+	width:100%;
+	overflow: hidden; /*todo lo que revase el contenedor lo oculta  #D5DBDB*/
+	background-color:#D5DBDB;
+	display:flex;
+	align-items: center;
+	font-family:Century Gothic;	
+	border-radius:4px;
+ }
+ 
+ .contenedor2 div{
+	margin:8px;
+    margin-left:10px;	
+ }
+ 
+ .contenedor2 select{
+	 width:130px;
+	 min-height:30px; /*Altura minima del select*/
+	 font-family:Century Gothic;
+	 border-radius:4px;
+	 background:#34495E;
+	 border-color:transparent;
+	 color:white;
+	 
+ }
+ 
+ .contenedor2 select:hover{
+	 background-color:#212F3C ;
+	
+ }
+
+ .contenedor2 option{
+	 background-color:#34495E;
+ }
+ 
+ .contenedor2 a{
+	 text-decoration:none;
+	 color:black;
+	 font-style: italic;
+ } 
+ 
+ .contenedor2 a:hover{
+	 color:#808B96;
+ }
+ 
+ /*Aside-------------------------------------------------------*/
+  .repertorio-tesis{
+	margin-right:50px;
+	margin-top:6px;
+	width:21%;
+	height:270px;
+	padding-top:10px;
+	padding-bottom:10px;
+	padding-left:6px;
+	background-color:#34495E;
+	float:right;
+	position:sticky;
+	top:0;
+}
+
+ .aside-titulo{
+	width:264px;
+	background-color:#34495E;
+	padding-top:10px;
+	padding-bottom:10px;
+	border-style:solid;
+	border-color:white;
+	border-width:0.5px;
+
+}
+ 
+ .aside-contenedor2 div{
+	min-height:88px;
+	width:264px;
+	border-style:solid;
+	border-color:white;
+	border-width:1px;
+	background:#34495E;
+    text-align: center;
+	align-items:center;
+	
+ }
+ 
+.aside-listar p{
+	  font-family:Century Gothic;
+	  color:white;
+	  text-align:left;
+ }
+ 
+ .aside-listar input[type=text]{
+	 width:100px;
+	 height:24px;
+	 border-radius:4px;
+	 font-family:Century Gothic;
+	 border-color:transparent;
+ }
+
+.btn-listar{
+	border-color:transparent;
+	height:30px;
+	width:100%;
+	background-color:#5D6D7E ;
+	font-family:Century Gothic;
+	font-size:16px;
+	color:white;
+	border-style:solid;
+	border-color:white;
+	border-width:0.5px;
+}

@@ -1,0 +1,66 @@
+.clasificacion-libro{
+	/*padding:16px;*/
+	padding-top:10px;
+	padding-bottom:10px;
+	padding-right:4px;
+	padding-left:30px;
+	width:90%;
+	height:420px;
+	margin:auto;
+	overflow: hidden; /*todo lo que revase el contenedor lo oculta*/
+	background-color: tan;
+	justify-content: space-between;
+	display:flex;
+	align-items: center;
+	background-image: url("../imagenes/fondo4.jpg");
+	background-size: 1400px 480px;
+ }
+ 
+ 
+ .centro{
+	width:95%; 
+	height:390px;
+	background:orange;
+	background-color: rgb(51, 51, 51, 0.602);
+	margin:auto;
+	font-family:Century Gothic;
+	
+ }
+ 
+ table{
+	margin:auto;
+	margin-top:26px;
+	border-color:silver;
+	
+}
+td{
+	width:550px;
+	height:170px;
+	text-align: center;
+	color:white;	
+}
+
+td:hover{
+	background-color:#5D6D7E;
+	/*transform: translateY(+3%); Al pasar el cursor por la celdas estas se van a desplazar 3% con respecto a y*/
+}
+
+.img-libros:hover{
+	transform: translateY(+3%);
+}
+
+.centro img{
+	margin:auto;
+}
+
+.centro div{
+	width:550px;
+	height:24px;
+	background:#2C3E50;
+	color:white;
+}
+ 
+.escuela a{
+	color:white;
+}
+ 

@@ -1,0 +1,73 @@
+#listaArticulos{
+    font-size: 15px;
+    margin-top: 20px;
+    list-style: none;
+    font-weight: 600;
+    color: black;
+    text-align: center;
+}
+
+.filtro{
+    display: none;
+}
+.color{
+	color: red;
+}
+.contenedor-datos{
+	width:92.5%;
+	height:1600px;
+	background:#BDC3C7;
+	margin:auto;
+	padding-top:10px;
+	
+}
+.datos{
+	width:80%;
+	height:1480px;
+	background:#F2F3F4;
+	margin:auto;
+	margin-top:40px;
+	padding:20px;
+	font-family:Century Gothic;
+	text-align:center;
+}
+.datos h3{
+	color:#1D8348;
+}
+.datos h2{
+	color:#D4AC0D;
+}
+.datos input[type=text]{
+	width:320px;
+	height:30px;
+	border-radius:4px;
+	font-family:Century Gothic;
+	border-color:transparent;
+}
+
+.datos select{
+	width:322px;
+	min-height:30px; /*Altura minima del select*/
+	font-family:Century Gothic;
+	border-radius:4px;
+	background:#34495E;
+	border-color:transparent;
+	color:white;
+    margin-bottom:8px;	 
+}
+.datos input[type=radio]{
+	margin-left:12px;
+}
+
+.datos hr{
+	height:2px;
+	background-color: orange;
+}
+
+.basedatos a{
+	color:red;
+}
+
+.basedatos a:hover{
+	color:#F4D03F ;
+}

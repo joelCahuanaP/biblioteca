@@ -1,0 +1,123 @@
+.contenedor-reserva{
+	width:80%;
+	height:600px;
+	background:#D7DBDD;
+	margin:auto;
+	margin-top:20px;
+	margin-bottom:20px;
+	border-radius:10px;
+	padding-top:10px;
+	}
+.contenedor-reserva div{
+	width:80%;
+	height:150px;
+	/*background:red;*/
+	margin:auto;
+	margin-top:40px;
+	font-family:Century Gothic;
+}
+
+#conte-tabla{
+	margin-top:0px;
+}
+
+.identificar input{
+	 width:250px;
+	 height:30px;
+	 border-radius:4px;
+	 font-family:Century Gothic;
+	 border-color:transparent;
+	 margin-bottom:10px;	 
+ }
+ 
+ .contenedor-reserva table{
+	 margin:auto;
+	 border-color:silver;
+	 border:2px;
+ }
+ 
+ #celd{
+	background:tan;
+	height:30px;
+ }
+ 
+ td{
+	 background:white;
+	 height:30px;
+ }
+ 
+ td>input{
+	 height:24px;
+	 margin-bottom:4px;
+	 margin-top:4px;
+ }
+ 
+ #tamaño{
+	 width:130px;
+ }
+ 
+ .contenedor-reserva select{
+	 height:24px;
+ }
+ 
+ #btn{
+	height:38px;
+	width:110px;
+	border-radius:4px;
+	margin-top:20px;
+	font-family:Century Gothic;
+    background:#F4D03F ;	
+ }
+ 
+ #btn:hover{
+	 background:#D4AC0D;
+ }
+ 
+ #titulo{
+	 font-size:24px;
+	 text-align:center;
+	 margin-bottom:20px;
+	 color:#F39C12;
+ }
+ 
+ .camp{
+	 width:120px;
+	 height:30px;
+	 border-radius:8px;
+	 border: 1px solid #39c;
+	 padding-left:10px;
+	 margin-top:8px;
+ }
+ 
+ #campDetalle{
+	 margin-top:20px;
+ }
+ 
+ 
+.insertDetalle{
+	background:red;
+} 
+ 
+#butt{
+	width:84px;
+	height:34px;
+	background:#5DADE2 ;
+	margin-bottom:20px;
+	border-radius:8px;
+	border: 1px solid #39c;
+	
+}
+
+#butt:hover{
+	background:#AED6F1 ;
+	
+}
+
+h2{
+	color:#F39C12;
+}
+
+.registroReserva{
+	overflow-y: scroll;
+	background:black;
+}

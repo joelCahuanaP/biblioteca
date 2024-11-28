@@ -1,0 +1,150 @@
+*{ 
+   margin: 0;
+   padding: 0;
+ }
+ 
+ .div-header{
+	/*padding:16px;*/
+	padding-top:10px;
+	padding-bottom:10px;
+	padding-right:4px;
+	padding-left:30px;
+	width:90%;
+	margin:auto;
+	overflow: hidden; /*todo lo que revase el contenedor lo oculta*/
+	justify-content: space-between;
+	display:flex;
+	align-items: center;
+ }
+
+ p{
+	 font-family:Century Gothic; 
+ }
+ 
+  .div-header p{
+  padding:20px;
+  font-size:30px;
+  font-family:Century Gothic; 
+ }
+ 
+ ul li a{
+	 padding-left:40px;
+ }
+ 
+ .sesion a{
+	color:#f07613;
+    font-size:17px;	
+ }
+ 
+ .sesion ul{
+	list-style:none; 
+	padding:20px;
+ }
+ 
+ a{
+	 text-decoration:none;
+	 color:black;
+ }
+ 
+ 
+ /**/
+ 
+ .menu{
+	 background-color: #F2F3F4;
+ }
+
+ .menu ul{
+	list-style:none;
+ }
+ 
+ 
+.nav li a{
+	background-color: #F2F3F4;
+	padding:10px 15px;
+	display: block;
+}
+
+.nav > li{  
+	float:left;
+}
+ 
+.nav li a:hover{  
+	background-color:orange;
+}
+
+
+.nav li ul{
+	display:none;
+	position:absolute;
+	min-width:140px;/	
+}
+
+.nav li:hover>ul{ 
+   display:block;
+}
+
+
+ /*imagen*/
+
+ .dibujo {
+	height: 260px;	
+	background-position: center;
+    background:red;	
+ }
+ 
+ .hero{
+	padding-top:10px;
+	padding-bottom:10px;
+	width:92.6%;
+	margin:auto;
+	/*overflow: hidden; /*todo lo que revase el contenedor lo oculta*/
+	background-color: orange;
+	display:flex;
+	align-items: center;
+	 
+ }
+ 
+ .dibujo img{
+	 width:100%;
+	  height:280px;
+ }
+ 
+ .mando-anterior{
+	position:absolute;
+	margin-left:40px;
+}
+
+.mando-siguiente{
+	position:absolute;
+	margin-left:1200px;	
+}
+
+.diseño input[type=button] {
+	height:60px;
+	width:60px;
+	border-radius:30px;
+	background-color: rgba(229, 231, 233 ,0.5);
+	border: 1px solid #d0d0d0;
+	font-size:20px;
+}
+
+.diseño input[type=button]:hover{
+	background:orange;
+	color:white;
+	transform: translateY(+8%);
+}
+
+
+.letra{
+	
+	background-color: orange;
+	padding-top:1px;
+	padding-bottom:1px;
+	
+	
+}
+
+.letra p{
+	font-size:16px;
+	font-family:Century Gothic;
+}

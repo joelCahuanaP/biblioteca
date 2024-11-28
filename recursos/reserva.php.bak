@@ -1,0 +1,176 @@
+<!DOCTYPE html>
+<html>
+<head>
+ <title>Busqueda Avanzada.</title>
+<meta http-equiv="Content-Language" content="es"/>
+ <meta name="Keywords" content="menu,enlaces"/>
+<meta name="Description" content="menu enlaces. enlaces biblioteca"/>
+<meta name="Distribution" content="global"/>
+ <meta name="Robots" content="all"/>
+<link rel="stylesheet" href="../css/estilos.css">
+ <link rel="stylesheet" href="../css/estilo-catalogo.css">
+ <link rel="stylesheet" href="../css/estilos-footer.css">
+ <link rel="stylesheet" href="../css/estilo-reserva.css">
+ 
+ </head>
+ <body bgcolor=white >
+ 
+  <header>
+  
+   <div class="div-header">
+     <img class="icono" src="../imagenes/logo.png" alt="logo"/>
+     <p>SISTEMA DE BIBLIOTECA UNFV-FIIS</p>
+   
+     <div class="sesion">
+       <ul>
+         <li><a class="boton" href="#" >Iniciar Sesion</a></li>
+       </ul>
+     </div>
+   </div>
+   
+  <div class="div-header letra">
+      <p>|  RESERVAR  |</p>
+   </div> 
+   
+</header>
+ 
+ 
+<div class="contenedor-reserva">
+  	<form action="mailto:cahuanaparedesjoel@gmail.com" method="post" enctype="text/plain">
+	   <div class="identificar">
+	         <p id="titulo"><b>| RESERVA |</b></p>
+	         <p><center>Digite su Usuario:&nbsp;&nbsp;<input type="text" name="usuario" size="30" placeholder="usuario"/></center></p>
+             <p><center>Digite su clave:&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;<input type="password" name="clave" size="30" placeholder="clave"/></center></p>
+
+	   </div>
+	   <div id="conte-tabla">
+	         <table border="2" cellspacing="0" >
+                <caption>Detalles</caption>
+                <tr>  
+                    <th id="tamaño" >Biblioteca    </th>
+                    <th id="tamaño" >Codigo</th>
+                    <th  >Tipo</th>
+                    <th  id="tamaño">Fecha recojo</th>
+                    <th id="tamaño" >Fecha devolución</th>
+                    <th id="tamaño">Estado</th>
+                </tr>
+  
+                <tr>
+                    <td >Biblioteca FIIS</td>
+                    <td ><input type="text" name="codigo1" size="14" placeholder="codigo"/></td>
+                    <td ><select name="tipo">
+                                              <option>--------</option>
+                                              <option>libro</option>
+                                              <option>revista</option>
+                                       </select></td>
+                    <td ><input type= "date" name = "Fentrega"/></td>
+                    <td ><input type= "date" name = "Fdevolucion"/></td>
+                    <td ><center>Disponible</center></td> 
+                </tr>  
+             </table>
+			 
+			 <center><input id="btn" type="submit" value="Enviar solicitud"/>
+                     <input id="btn" type="reset" value="Borrar todo"/></center>
+ 
+	   </div>
+	</form>
+</div>
+
+
+<footer>
+       
+       <div class="container-footer-all">
+        
+            <div class="container-body">
+
+                <div class="colum1">
+                    <h1>Mas informacion de la biblioteca</h1>
+
+                    <p>La Universidad Nacional Federico Villarreal (UNFV) se creó 
+					como Universidad Autónoma el 30 de octubre de 1963, 
+					mediante ley número 14692, promulgada por el gobierno 
+					constitucional del presidente Fernando Belaunde Terry.</p>
+
+                </div>
+
+                <div class="colum2">
+
+                    <h1>Redes Sociales</h1>
+
+                    <div class="row">
+					    <a href="https://www.facebook.com/UNFV.EDU" target="0">
+                        <img src="../imagenes/facebook.png">
+						</a>
+                        <label>Siguenos en Facebook</label>
+						
+                    </div>
+                    <div class="row">
+					    <a href="https://twitter.com/unfvoficial?lang=es" target="0">
+                        <img src="../imagenes/twitter.png">
+						</a>
+                        <label>Siguenos en Twitter</label>
+                    </div>
+                    <div class="row">
+					    <a href="https://www.instagram.com/unfvoficial/?hl=es" target="0">
+                        <img src="../imagenes/instagram.png">
+						</a>
+                        <label>Siguenos en Instagram</label>
+                    </div>
+                    <div class="row">
+					    <a href="http://www.unfv.edu.pe/idiomas/" target="0">
+                        <img src="../imagenes/google-plus.png">
+						</a>
+                        <label>Siguenos en Google Plus</label>
+                    </div>
+                    <div class="row">
+					    <a href="https://www.pinterest.es/pin/649855421200234434/" target="0">
+                        <img src="../imagenes/pinterest.png">
+						</a>
+                        <label>Siguenos en Pinteres</label>
+                    </div>
+
+
+                </div>
+
+                <div class="colum3">
+
+                    <h1>Informacion Contactos</h1>
+
+                    <div class="row2">
+                        <img src="../imagenes/house.png">
+                        <label>Jr. Carlos Gonzáles 285 Urb. Maranga - San Miguel</label>
+                    </div>
+
+                    <div class="row2">
+                        <img src="../imagenes/smartphone.png">
+                        <label>(+51) 748 0888</label>
+                    </div>
+
+                    <div class="row2">
+                        <img src="../imagenes/contact.png">
+						
+                         <label>occii@unfv.edu.pe</label>
+                    </div>
+
+                </div>
+
+            </div>
+        
+        </div>
+        
+        <div class="container-footer">
+               <div class="footer">
+                    <div class="copyright">
+                        © 2021 Todos los Derechos Reservados | <a href="">Equipo 8</a>
+                    </div>
+
+                    <div class="information">
+                        <a href="">Informacion Biblioteca</a> | <a href="">Privacion y Politica</a> | <a href="">Terminos y Condiciones</a>
+                    </div>
+                </div>
+
+            </div>
+        
+    </footer>
+</body>
+</html>

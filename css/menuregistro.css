@@ -1,0 +1,78 @@
+*{ /* Selector Universal */
+    box-sizing: border-box; /* Alineamos los div en forma horizontal */
+    font-family: 'Poppins', sans-serif; /* Elegimos una fuente de letra que sera para todo */
+	text-decoration: none;
+}
+.menulogin{
+    width:90%; /* Le damos un ancho del 90% para que este alineado al header */
+	margin:auto; /* Le damos un ajuste en automatico */
+    display: flex; /* Nos ayuda a colocar los div como si fueran celdas de tabla */
+    justify-content: center; /* Centramos el contenido */
+    align-items: center; /* Alineamos los items al centro  */
+    min-height: 100vh; /* Alargamos el alto del div que contendra los 3 tipos de registros */
+    background: linear-gradient(#ff7b00,#f5a225 50%, #fff 50%, #fff 100%) /* Elegimos los dos colores de fondo */
+}
+.registros{
+    width: 150px; /* Establecemos el ancho */
+    height: 150px; /* Establecemos la altura  */
+    align-items: center; /* Alianemos los items al centro */
+    transform: translate(30%,-1%); /* Movemos la direccion de las imagenes de los registros*/
+}
+.container{
+    width: 1100px; /* Establecemos el ancho en el que se separaran los registros */
+    display: flex; /* Nos ayuda a colocar los div como si fueran celdas de tabla */
+    justify-content: space-between; /* hace que se repartan los espacios sobrantes entre los div */
+}
+.container .contenedor-regis{
+    position: relative; /* Le asignamos una posicion relativa al contenedor de registros */
+    width: 320px; /* Establecemos un ancho de 320px al contenedor de registros */
+    background: white; /* Establecemos un fondo de color blanco al contenedor de registros */
+    padding: 100px 40px 60px; /* Ponemos un padding y establecemos las altura que tendra el contenedor de registros */
+    box-shadow: 0 15px 45px rgba(0, 0, 0,.1); /* Permite determinar una sombra difuminada */ 
+}
+.container .contenedor-regis:before{
+    content: ''; /* indicar que contenido debería añadirse y sí tiene que estar detrás o delante del elemento. */
+    position: absolute;  /*Posicion absoluta */
+    top: 0;  
+    left: 0;
+    width: 100%; /* Establecemos un ancho del 100% */
+    height: 100%; /* Establecemos una altura del 100% */
+    background: orange; /* Establecemos el color del fondo naranja*/
+    transform: scaleY(0); /* Hace que primero este el fondo blanco y luego al pasar el cursor se vuelva naranja */
+    transform-origin: top; /* Hace que a la hora de quitar el cursor se cierre el efecto hacia arriba */
+    transition: transform 0.5s; /* El tiempo en quitarse la transicion */
+}
+.container .contenedor-regis:hover:before{
+    transform: scaleY(1); /* Modifica el elemento en el planoo 2D */
+    transform-origin: bottom; /* Hace que la transicion empiece por abajo */
+    transition: transform 0.5s; /* El tiempo en que la transicion demora en aparecer */
+}
+.container .contenedor-regis h2{
+    position: absolute; /* Posicion absoluta */    
+    top: 60px; /* Hace que el h2 suba y se ajuste al h3(titulos) */
+    font-size: 4em; /* Tamaño de letr */
+    font-weight: 800; /* Especifica el peso o grueso de la letra */
+    opacity: 0.1; /* Hace transparente el h2 y lo pone detras del titulo (numero) */
+    transition: 0.5s; /* Tiempo de la transicion */
+}
+.container .contenedor-regis:hover h2{
+    opacity: 1; /* Hace que el h2 al pasar el cursor no sea transparente */
+    color: white; /* Asignamos color blanco */
+    transform: translateY(-40px); /* Hace que el h2(numero) al poner el cursor pase a tener una posicion mas arriba */
+}
+.container .contenedor-regis:hover a{ 
+    color: white; /* Asignamos color blanco  */   
+}
+.container .contenedor-regis h3{
+    position: relative; /* Posicion relativa */
+    font-size: 1.5em;  /* Tamaño de letra */ 
+    color: black; /* Color del texto */
+    transition: 0.5s; /* Tiempo de la transicion */
+}
+.container .contenedor-regis a{
+    position: relative; /* Posicion relativa */
+    color: black;
+}
+.container .contenedor-regis:hover h3{
+    color: white;  /* Le asignamos un color blanco al h3 al poner el cursor */
+} 

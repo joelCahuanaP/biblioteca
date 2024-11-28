@@ -1,0 +1,205 @@
+*{ 
+   margin: 0;
+   padding: 0;
+ }
+ 
+ /*Contenedor-----------------------------------------------------*/
+.abc{
+	width:96%;
+	height:800px;
+	margin-top:0px;
+    padding-left:50px;
+	margin:auto;
+}
+ .contenedor{
+	 float:left;
+	 width:74%;
+	 margin-top:6px;
+	/* margin-left:50px;*/
+ }
+ 
+ .contenedor1{
+	padding-top:6px;
+	padding-bottom:6px;
+	width:100%;
+	overflow: hidden; /*todo lo que revase el contenedor lo oculta  #D5DBDB*/
+	background-color:#D5DBDB;
+	display:flex;
+	align-items: center;
+	font-family:Century Gothic;	
+	border-radius:4px;
+ }
+  
+ .contenedor1 div{
+	margin:8px; 
+ }
+ 
+ .contenedor1 select{
+	 width:130px;
+	 min-height:30px; /*Altura minima del select*/
+	 font-family:Century Gothic;
+	 border-radius:4px;
+	 background:#34495E;
+	 border-color:transparent;
+	 color:white;
+	 
+ }
+ 
+ .contenedor1 select:hover{
+	 background-color:#212F3C ;
+	
+ }
+
+ .contenedor1 option{
+	 background-color:#34495E;
+ }
+  .barratext input[type=text]{
+	 width:250px;
+	 height:30px;
+	 border-radius:4px;
+	 font-family:Century Gothic;
+	 border-color:transparent;
+ }
+
+.btn{
+	border-radius:4px;
+	border-color:transparent;
+	height:30px;
+	width:80px;
+	background-color:#F5B041 ;
+}
+
+.btncolor:hover{
+	background-color:#F39C12;
+}
+ 
+.contenedor1 a{
+	 text-decoration:none;
+	 color:black;
+	 font-style: italic;
+ } 
+ 
+ .contenedor1 a:hover{
+	 color:#808B96;
+ }
+ 
+ /*Recomendado--------------------------------*/
+ .recomendado{
+	 width:100%;
+	 height:700px;
+	 margin-top:10px;
+	 background-color: #F2F3F4;
+	 display:block;
+	 padding-top:10px;
+	 
+ }
+
+ .recomendado>p{
+	 font-size:30px;
+	 margin-left:40px;
+	 margin-bottom:8px;
+	 color:#D4AC0D;
+ }
+ 
+ .recomendado h4{
+	 color:#1D8348;
+ }
+.libro{
+	width:98%;
+	height:200px;
+	background-color: #D6EAF8;
+	margin:auto;
+	border-radius:4px;
+	display:flex;
+	margin-top:10px;
+
+}
+
+.libro:hover{
+	background-color:#AED6F1;
+}
+
+.libro-imagen{
+	width:180px;
+	height:180px;
+    margin:8px;
+    	
+}
+
+.libro-imagen img{
+	width:180px;
+	height:180px;
+}
+
+.libro-detalles{
+	width:720px;
+	height:170px;
+	margin:8px;
+	padding-top:10px;
+	padding-left:10px;
+	
+}
+
+
+ /*Aside -------------------------------------*/
+ 
+.repertorio{
+	margin-right:50px;
+	margin-top:6px;
+	width:21%;
+	height:330px;
+	padding-top:10px;
+	padding-bottom:10px;
+	padding-left:6px;
+	background-color:#F2F3F4;
+	float:right;
+	position:sticky;
+	top:0;
+}
+
+.aside-contenedor div{
+	height:140px;
+	width:264px;
+	border-style:solid;
+	border-color:white;
+	border-width:1px;
+	background:#34495E;
+    text-align: center;
+	align-items:center;
+}
+
+.aside-contenedor img{
+	margin-top:24px;
+}
+
+.aside-contenedor a{
+	 text-decoration:none;
+	 color:white;
+	 font-family:Century Gothic;
+	 text-align:center; 
+	 
+}
+
+.aside-titulo{
+	width:265px;
+	background-color:#34495E;
+	padding-top:10px;
+	padding-bottom:10px;
+
+}
+
+.aside-titulo p{
+	text-align:center;
+	color:white;
+} 
+ 
+/*
+Estilos para la lista ......................................*/
+ #listaArticulos{
+    font-size: 17px;
+	margin-top: 20px;
+	list-style: none;
+	font-weight: 600;
+	text-align: center;}
+	
+.filtro{display: none;}

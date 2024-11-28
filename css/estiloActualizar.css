@@ -1,0 +1,102 @@
+*{
+	margin: 0;
+    padding: 0;
+	
+}
+
+
+.actuLibro{
+	background:#D7DBDD;
+	width:92.5%;
+	height:560px;
+	margin:auto;
+	padding-top:30px;
+	
+}
+
+.content h1{
+	text-align:center;
+	margin-top:20px;
+	
+}
+
+.content{
+	background:#F7DC6F ;
+	width:700px;
+	border-radius:30px;
+	margin:auto;
+
+}
+
+form{
+	display:flex;
+	width:84%;
+	height:400px;
+	margin:auto;
+	flex-wrap:wrap;
+	justify-content:space-between;
+}
+
+.campo{
+	display:block;
+	width:230px;
+	margin-right: 8px;
+	height:68px;
+	margin-top:12px;
+
+}
+
+.campo input{
+	height:40px;
+	width:220px;
+	margin-top:10px;
+	border-radius:4px;
+	border: 1px solid #d0d0d0;
+	text-align:center;
+}
+.campo label{
+	margin-bottom:20px;
+}
+
+.at{
+	display:flex;
+	flex-direction:colum;
+	width:800px;
+	height:100px;
+	margin:auto;
+	margin-top:10px;
+	
+}
+
+textarea{
+	width:700px;
+	border-radius:3px;
+	margin:4px;
+	margin-left:10px;
+	border: 1px solid #d0d0d0;
+}
+
+.btn-enviar{
+	
+	justify-content:center;
+	margin-top:20px;
+	margin-bottom:20px;
+	margin-left:200px;
+	
+}
+
+
+.btn-enviar>input{
+	margin:auto;
+	margin-right:8px;
+	background:orange ;
+	width:100px;
+	height:40px;
+	border-radius:6px;
+	color:black;
+	border: 1px solid #F5B041 ;
+}
+
+.btn-enviar>input:hover{
+	background:#D68910;
+}

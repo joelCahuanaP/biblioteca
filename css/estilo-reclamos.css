@@ -1,0 +1,88 @@
+*{
+	font-family:Century Gothic;
+	margin: 0;
+    padding: 0;
+	
+}
+
+
+.reclamos{
+	background:orange;
+	width:92.5%;
+	height:560px;
+	margin:auto;
+}
+
+.content h1{
+	text-align:center;
+	margin-top:20px;
+}
+
+form{
+	display:flex;
+	width:84%;
+	height:400px;
+	margin:auto;
+	flex-wrap:wrap;
+	justify-content:space-between;
+}
+
+.campo{
+	display:block;
+	width:230px;
+	margin-right: 8px;
+	height:68px;
+	margin-top:12px;
+
+}
+
+.campo input{
+	height:40px;
+	width:220px;
+	margin-top:10px;
+	border-radius:3px;
+	border: 1px solid #d0d0d0;
+}
+.campo label{
+	margin-bottom:20px;
+}
+
+.at{
+	display:flex;
+	flex-direction:colum;
+	width:800px;
+	height:100px;
+	margin:auto;
+	margin-top:10px;
+	
+}
+
+textarea{
+	width:700px;
+	border-radius:3px;
+	margin:4px;
+	margin-left:10px;
+	border: 1px solid #d0d0d0;
+}
+
+.btn-enviar{
+	display:flex;
+	justify-content:center;
+	margin-left:420px;
+	
+}
+
+
+.btn-enviar>input{
+	margin:auto;
+	margin-right:8px;
+	background:#935116 ;
+	width:100px;
+	height:40px;
+	border-radius:6px;
+	color:white;
+}
+
+.btn-enviar>input:hover{
+	background:#CA6F1E;
+}

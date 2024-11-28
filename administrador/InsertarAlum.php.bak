@@ -1,0 +1,28 @@
+<?php 
+
+include("../conexion/conexion.php");
+
+if(isset($_POST['nombre']) && isset($_POST['apellido']) && isset($_POST['facultad'])
+     && isset($_POST['usuario'])&& isset($_POST['contra']) && isset($_POST['correo']) && isset($_POST['telefono'])){
+		 
+		 
+	   $nombre=$_POST['nombre'];
+	   $apellido=$_POST['apellido'];
+	   $correo=$_POST['correo'];
+	   $facultad=$_POST['facultad'];
+	   $usuario=$_POST['usuario'];
+	   $contra=$_POST['contra'];
+	   $telefono=$_POST['telefono'];
+	   
+	   	   
+	   $consulta="INSERT INTO alumno(ID,Nombre,Apellido,Correo,Facultad,Usuario,Contraseña,Telefono) VALUES(null,'$nombre',' $apellido','$correo','$facultad','$usuario','$contra','$telefono')";
+	   $resultado=mysqli_query($conexion,$consulta) or die("Error de registro");
+	   
+         header("location: formInsertarAlum.php");	 
+	  
+	  	 
+	 }
+
+
+
+?>

@@ -1,0 +1,10 @@
+<?php 
+if(isset($_POST['buscador']))
+{
+    $bus=$_POST['buscador'];
+    $consulta2="SELECT * FROM docente 
+	WHERE Nombre LIKE '%$bus%'";
+    $resultado2= mysqli_query($conexion,$consulta2);
+	
+}
+?>
